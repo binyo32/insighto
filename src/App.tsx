@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/reset-password" element={<ResetPassword />} />
+      <Route path="/resetPassword" element={<ResetPassword />} />
       <Route path="/delete-account" element={<DeleteAccount />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/support" element={<Support />} />
