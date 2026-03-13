@@ -207,6 +207,16 @@ export default function ResetPassword() {
             </p>
           </div>
         )}
+
+        {/* Footer */}
+        <div className="mt-8 text-center">
+          <a href="/" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">
+            ← Back to Home
+          </a>
+          <p className="text-gray-600 text-xs mt-4">
+            &copy; 2026 Insighto. All rights reserved.
+          </p>
+        </div>
       </div>
     </main>
   );
