@@ -175,10 +175,10 @@ export default function PrivacyPolicy() {
             <p className="mt-3">
               To exercise these rights, contact us at{' '}
               <a
-                href="mailto:support@insighto.app"
+                href="mailto:support@insighto.id"
                 className="text-primary hover:underline"
               >
-                support@insighto.app
+                support@insighto.id
               </a>{' '}
               or use the account deletion feature within the app (Settings →
               Account → Delete Account).
@@ -232,10 +232,10 @@ export default function PrivacyPolicy() {
             <p className="mt-2">
               Email:{' '}
               <a
-                href="mailto:support@insighto.app"
+                href="mailto:support@insighto.id"
                 className="text-primary hover:underline"
               >
-                support@insighto.app
+                support@insighto.id
               </a>
             </p>
           </div>

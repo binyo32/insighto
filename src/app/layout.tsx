@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Insighto — AI-Powered People Search',
     description: 'Discover anyone\'s public profile in seconds.',
     type: 'website',
-    url: 'https://insighto.app',
+    url: 'https://insighto.id',
   },
   twitter: {
     card: 'summary_large_image',

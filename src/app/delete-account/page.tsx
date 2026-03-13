@@ -63,10 +63,10 @@ export default function DeleteAccount() {
             </p>
             <p className="mt-2">
               <a
-                href="mailto:support@insighto.app?subject=Account%20Deletion%20Request"
+                href="mailto:support@insighto.id?subject=Account%20Deletion%20Request"
                 className="text-primary hover:underline text-lg font-medium"
               >
-                support@insighto.app
+                support@insighto.id
               </a>
             </p>
             <p className="mt-2">
@@ -135,10 +135,10 @@ export default function DeleteAccount() {
               If you have any questions about the deletion process, please
               contact us at{' '}
               <a
-                href="mailto:support@insighto.app"
+                href="mailto:support@insighto.id"
                 className="text-primary hover:underline"
               >
-                support@insighto.app
+                support@insighto.id
               </a>
               .
             </p>

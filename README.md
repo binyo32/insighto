@@ -56,5 +56,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Contact
 
-- Website: [insighto.app](https://insighto.app)
-- Support: support@insighto.app
+- Website: [insighto.id](https://insighto.id)
+- Support: support@insighto.id

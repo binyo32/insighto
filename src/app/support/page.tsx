@@ -29,10 +29,10 @@ export default function Support() {
             </p>
             <p className="mt-2">
               <a
-                href="mailto:support@insighto.app"
+                href="mailto:support@insighto.id"
                 className="text-primary hover:underline text-lg font-medium"
               >
-                support@insighto.app
+                support@insighto.id
               </a>
             </p>
             <p className="mt-2 text-sm text-gray-400">
@@ -171,10 +171,10 @@ export default function Support() {
             <p>
               Found a bug or something not working? Please email us at{' '}
               <a
-                href="mailto:support@insighto.app?subject=Bug%20Report"
+                href="mailto:support@insighto.id?subject=Bug%20Report"
                 className="text-primary hover:underline"
               >
-                support@insighto.app
+                support@insighto.id
               </a>{' '}
               with:
             </p>

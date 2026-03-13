@@ -229,10 +229,10 @@ export default function TermsOfService() {
             <p className="mt-2">
               Email:{' '}
               <a
-                href="mailto:support@insighto.app"
+                href="mailto:support@insighto.id"
                 className="text-primary hover:underline"
               >
-                support@insighto.app
+                support@insighto.id
               </a>
             </p>
           </div>
