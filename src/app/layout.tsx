@@ -26,7 +26,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var hash = window.location.hash;
+                if (hash && hash.indexOf('type=recovery') !== -1 && window.location.pathname === '/') {
+                  window.location.replace('/reset-password' + hash);
+                }
+              })();
+            `,
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
