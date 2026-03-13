@@ -491,9 +491,6 @@ function Footer() {
                 <a href="/support" className="hover:text-white transition-colors">Help &amp; FAQ</a>
               </li>
               <li>
-                <a href="/reset-password" className="hover:text-white transition-colors">Reset Password</a>
-              </li>
-              <li>
                 <a href="mailto:support@insighto.id" className="hover:text-white transition-colors">support@insighto.id</a>
               </li>
             </ul>
