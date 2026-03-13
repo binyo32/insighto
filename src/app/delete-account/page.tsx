@@ -43,7 +43,7 @@ export default function DeleteAccount() {
                 icon in the top right)
               </li>
               <li>
-                Tap on <strong className="text-white">Account</strong>
+                Scroll to the very bottom of the page
               </li>
               <li>
                 Tap{' '}
