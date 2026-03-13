@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #0A0A1A;
+  color: #ffffff;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #6C3AFF, #00D1FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effect */
+.glow-purple {
+  box-shadow: 0 0 40px rgba(108, 58, 255, 0.3), 0 0 80px rgba(108, 58, 255, 0.1);
+}
+
+.glow-accent {
+  box-shadow: 0 0 40px rgba(0, 209, 255, 0.2);
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(18, 18, 42, 0.6);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(108, 58, 255, 0.15);
+}
+
+/* Animated gradient border */
+.gradient-border {
+  position: relative;
+  background: #12122A;
+  border-radius: 16px;
+}
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #6C3AFF, #00D1FF, #6C3AFF);
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* Feature card hover */
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(108, 58, 255, 0.15);
+}
+
+/* Pricing card popular */
+.pricing-popular {
+  background: linear-gradient(135deg, rgba(108, 58, 255, 0.1), rgba(0, 209, 255, 0.05));
+  border: 1px solid rgba(108, 58, 255, 0.4);
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Pulse glow */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+.pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Legal / prose pages */
+.prose-custom h2 {
+  scroll-margin-top: 4rem;
+}
+.prose-custom a {
+  word-break: break-word;
+}
+.prose-custom ul,
+.prose-custom ol {
+  padding-left: 0.25rem;
+}

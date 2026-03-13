@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insighto — AI-Powered People Search</title>
+    <meta name="description" content="Discover anyone's public profile in seconds. AI-powered search across multiple engines delivers comprehensive people insights." />
+    <meta name="keywords" content="people search, AI search, person finder, public profile, Insighto" />
+    <meta property="og:title" content="Insighto — AI-Powered People Search" />
+    <meta property="og:description" content="Discover anyone's public profile in seconds." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://insighto.id" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Insighto — AI-Powered People Search" />
+    <meta name="twitter:description" content="Discover anyone's public profile in seconds." />
+  </head>
+  <body class="antialiased">
+    <script>
+      (function() {
+        var hash = window.location.hash;
+        if (hash && hash.indexOf('type=recovery') !== -1 && window.location.pathname === '/') {
+          window.location.replace('/reset-password' + hash);
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
